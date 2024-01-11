@@ -1,0 +1,51 @@
+.card {
+  padding: 2.4rem;
+}
+
+.card-header-faq {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.card-header-faq > img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.card-content-faq ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card-content-faq ul li hr {
+  color: var( --light-pink-color);
+  margin: 2rem auto;
+}
+
+.card-content-faq__list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.card-content-faq p {
+  margin-top: 2.4rem;
+}
+
+.card-content-faq__list-header:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 376px) {
+  .card {
+    padding: 4rem;
+  }
+
+  .card-header-faq > img {
+    width: 4rem;
+    height: 4rem;
+  }
+}

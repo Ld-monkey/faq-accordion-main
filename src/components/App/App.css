@@ -1,0 +1,39 @@
+.App {
+  background-color: var(--light-pink-color);
+  height: 100vh;
+}
+
+header {
+  height: 23.2rem;
+  background-image: url('../../assets/images/background-pattern-mobile.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--dark-purple-color);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 60rem;
+  width: 90vw;
+}
+
+main {
+  position: absolute;
+  top: 14.25rem;
+  right: 50%;
+  transform: translateX(50%);
+  background-color: var(--white-pure-color);
+  border-radius: 0.8rem;
+}
+
+@media screen and (min-width: 376px) {
+  header {
+    height: 32rem;
+    background-image: url('../../assets/images/background-pattern-desktop.svg');
+  }
+
+  main {
+    top: 16.75rem;
+    border-radius: 1.6rem;
+  }
+}
